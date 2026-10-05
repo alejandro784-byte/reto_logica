@@ -7,6 +7,13 @@ public class Autenticacion {
         
         System.out.print("Ingrese su PIN de acceso: ");
         int pinIngresado = ewar.nextInt();
-     
-    
-    }  
+        
+        if (PIN_SECRETO==pinIngresado) { System.out.println("Bienvenido a su cuenta");
+       
+        }
+        else { System.out.println("Su contraseña es incorrecta. intente de nuevo");
+
+            }
+            ewar.close(); 
+        }
+    }
